@@ -45,7 +45,7 @@ A command starts with "!" . The command operates on the current expression, and 
 
 Entering an invalid expression or command prints an error but does not update the current expression.
 
-To exit, press _enter_ or _return_.
+To exit, type _enter_ or _return_.
 
 ## Example Usage (assume all of the following code are typed into one session)
     > x * x * x
