@@ -3,12 +3,12 @@
 This project follows [Problem Set 3 of MIT 6.005](https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps3/), which uses ANTLR. This system does not support additional operators such as "^", "-", and "/", and does not support "e" notation.
 
 To compile the project in command line, run the following commands
-(assuming we are at the root directory: expressivo/)
+(assuming we are at the root directory: new-expressivo/)
 
-    cd src/expressivo
-    javac -d ../../bin -cp ../../lib/hamcrest-core-1.3.jar:../../lib/junit-4.12.jar:../../lib/parserlib.jar:. *.java
-    cd ../../bin
-    java -cp ../lib/hamcrest-core-1ar:../lib/junit-4.12.jar:../lib/parserlib.jar:. expressivo.Main
+    javac -d bin/ -cp lib/antlr.jar src/expressivo/*.java src/expressivo/parser/*.java
+    cd bin
+    java -cp ../lib/antlr.jar:. expressivo.Main
+
 
 # Using the system
 (Information here is from [the pset assignment website](https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps3/))
