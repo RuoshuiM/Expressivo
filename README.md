@@ -43,6 +43,10 @@ A command starts with "!" . The command operates on the current expression, and 
   
     substitutes num i for var i in the current expression, and evaluates it to a single number if the expression contains no other variables; does **not** update the current expression
 
+Entering an invalid expression or command prints an error but does not update the current expression.
+
+To exit, press _enter_ or _return_.
+
 ## Example Usage (assume all of the following code are typed into one session)
     > x * x * x
     x*x*x
