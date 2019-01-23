@@ -51,7 +51,7 @@ A command starts with "!" . The command operates on the current expression, and 
     8
 
     > !d/dx
-    (x*x)*1+(x*1+1*x)*x
+    (x*x)+(x+x)*x
 
     > !simplify x=0.5000
     .75
@@ -60,4 +60,4 @@ A command starts with "!" . The command operates on the current expression, and 
     x*y
 
     > !d/dy
-    0*y+x*1
+    x
