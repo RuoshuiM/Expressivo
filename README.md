@@ -12,7 +12,7 @@ To compile the project in command line, run the following commands
 
 # Using the system
 (Information here is copied directly from [the pset assignment website](https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps3/))
-<br><br>
+  
 In this system, a user can enter either an expression or a command.
 
 An expression is a polynomial consisting of:
@@ -34,12 +34,14 @@ When the user enters an expression, that expression becomes the current expressi
     > x + x * x * y + x
     x + x*x*y + x
 
-A command starts with ! . The command operates on the current expression, and may also update the current expression. Valid commands:
+A command starts with "!" . The command operates on the current expression, and may also update the current expression. Valid commands:
 
   * d/d var 
-    <p>produces the derivative of the current expression with respect to the variable var , and updates the current expression to that derivative </p>
+    
+    produces the derivative of the current expression with respect to the variable var , and updates the current expression to that derivative
   * simplify var 1 = num 1 ... var n = num n 
-    <p> substitutes num i for var i in the current expression, and evaluates it to a single number if the expression contains no other variables; does not update the current expression </p>
+  
+    substitutes num i for var i in the current expression, and evaluates it to a single number if the expression contains no other variables; does **not** update the current expression
 
 ## Example Usage (assume all of the following code are typed into one session)
     > x * x * x
