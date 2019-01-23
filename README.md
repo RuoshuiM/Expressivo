@@ -11,7 +11,7 @@ To compile the project in command line, run the following commands
 
 
 # Using the system
-(Information here is from [the pset assignment website](https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps3/))
+(Information here is copied directly from [the pset assignment website](https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps3/))
 <br><br>
 In this system, a user can enter either an expression or a command.
 
