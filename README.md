@@ -1,6 +1,6 @@
 # new-expressivo
 
-This project follows [Problem Set 3 of MIT 6.005](https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps3/), which uses ANTLR for parsing. This system does not support additional operators such as "^", "-", and "/", and does not support "e" notation.
+This project follows [Problem Set 3 of MIT 6.005](https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps3/), which uses ANTLR for parser generation. This system does not support additional operators such as "^", "-", and "/", and does not support "e" notation.
 
 To compile and run the project in command line, run the following commands
 (assuming we are at the root directory: new-expressivo/)
